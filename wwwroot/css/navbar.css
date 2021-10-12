@@ -1,0 +1,28 @@
+﻿/*Navbar*/
+.nav > li > a {
+    margin-bottom: -1px;
+}
+.nav > li > a {
+    color: #6C6C6C;
+    position: relative;
+    display: block;
+    border-radius: 4px 4px 0 0;
+}
+.nav > li > em {
+    position: absolute;
+    width: 0px;
+    bottom: 3%;
+    pointer-events: none;
+}
+.nav > li:hover em {
+    animation: nav_elongation 0.05s ease;
+    border: 1px solid #6C6C6C;
+    width: 100%;
+}
+@keyframes nav_elongation {
+    from {width: 0;}
+    to {width: 100%;}
+}
+.nav > li:hover a{
+   color: #6C6C6C;
+}

@@ -1,0 +1,179 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+a.label:hover,
+a.label:focus {
+    cursor: default !important; 
+}
+body{
+    width: 100%;
+}
+tbody {
+    width: 100%;
+    height: auto;
+}
+#dAll {
+    width: 100%;
+    height: auto;
+}
+/*View*/
+#dView {
+    width: 20%;
+    float: left;
+}
+#tView {
+    width: 100%;
+    float: left;
+}
+#tView tbody {
+    width: 100%;
+    height: auto;
+}
+#tView tr {
+    width: 100%;
+    height: 25px;
+}
+#tView th {
+    border-top: 1px solid #dddddd;
+}
+#tView tr td {
+    height: 100%;
+}
+#dView a {
+    color: black;
+}
+#dView a:hover {
+    text-decoration: none;
+}
+/*表頭*/
+#dHead {
+    width: 70%;
+    height:auto;
+    float: left;
+}
+#dHead a {
+    color: black;
+}
+#dHead a:hover {
+    text-decoration: none;
+}
+#dHead textarea {
+    height: 100%;
+    display: inline-block;
+}
+#tHead {
+    height: auto;
+    display: block;
+}
+#tHead tbody {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#tHead tr {
+    width: 100%;
+    height: auto;
+    margin-top: 1%;
+    float: left;
+}
+#tHead tr td {
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#tHead tr th {
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+#tHead tr td input {
+    width: 100%;
+    float: left;
+}
+
+#tHead tr th input {
+    width: 100%;
+    float: left;
+}
+/*表身*/
+#dBody {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#dBody a {
+    color: black;
+}
+
+#dBody a:hover {
+    text-decoration: none;
+}
+
+#tBody {
+    height: auto;
+    display: block;
+}
+#tBody tbody {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#tBody tr {
+    width: 100%;
+    float: left;
+}
+
+#tBody tr td {
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+#tBody tr th {
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+#tBody tr td input {
+    width: 100%;
+    float: left;
+}
+#tBody tr th input {
+    width: 100%;
+    float: left;
+}
